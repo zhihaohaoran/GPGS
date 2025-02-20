@@ -33,8 +33,9 @@ conda activate GP-GS
 ### Running
 **MOGP**:
 ```shell
-python MOGP/mogp_train.py
-python MOGP/predict.py
+python MOGP/top_four_contribution.py #Find the image from a perspective that contributes most to SfM points cloud.
+python MOGP/mogp_train.py #Training MOGP model
+python MOGP/predict.py #Predict high quality dense points cloud.
 ```
 **MOGP for 3D gaussians Initialization**:
 ```shell
