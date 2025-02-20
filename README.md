@@ -4,6 +4,8 @@
 
 **This is the anonymous code repository for ICML2025 submission paper: GP-GS: Gaussian Processes for Enhanced 3D Gaussian Splatting **
 
+## 😛 Abstract
+3D Gaussian Splatting has emerged as an efficient photorealistic novel view synthesis method. However, its reliance on sparse Structure-from-Motion (SfM) point clouds consistently compromises the scene reconstruction quality. To address these limitations, this paper proposes a novel 3D reconstruction framework Gaussian Processes Gaussian Splatting (GP-GS), where a multi-output Gaussian Process model is developed to achieve adaptive and uncertainty-guided densification of sparse SfM point clouds. Specifically, we propose a dynamic sampling and filtering pipeline that adaptively expands the SfM point clouds by leveraging GP-based predictions to infer new candidate points from the input 2D pixels and depth maps. The pipeline utilizes uncertainty estimates to guide the pruning of high-variance predictions, ensuring geometric consistency and enabling the generation of dense point clouds. The densified point clouds provide high-quality initial 3D Gaussians to enhance reconstruction performance. Extensive experiments conducted on synthetic and real-world datasets across various scales validate the effectiveness and practicality of the proposed framework.
 ## 😊️ Pipeline
 
 ![teaser](assets/overview.png)
@@ -53,4 +55,15 @@ python metrics.py -m <model path>
 ```
 
 
-```
+
+## 📚Citation
+If you find this project useful in your research, please consider cite:
+@article{guo2025gp,
+  title={GP-GS: Gaussian Processes for Enhanced Gaussian Splatting},
+  author={Guo, Zhihao and Su, Jingxuan and Wang, Shenglin and Fan, Jinlong and Zhang, Jing and Han, Liangxiu and Wang, Peng},
+  journal={arXiv preprint arXiv:2502.02283},
+  year={2025}
+}
+
+
+
