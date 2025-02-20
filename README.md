@@ -58,12 +58,11 @@ python metrics.py -m <model path>
 
 ## 📚Citation
 If you find this project useful in your research, please consider cite:
+
+```bibtex
 @article{guo2025gp,
   title={GP-GS: Gaussian Processes for Enhanced Gaussian Splatting},
   author={Guo, Zhihao and Su, Jingxuan and Wang, Shenglin and Fan, Jinlong and Zhang, Jing and Han, Liangxiu and Wang, Peng},
   journal={arXiv preprint arXiv:2502.02283},
   year={2025}
 }
-
-
-
