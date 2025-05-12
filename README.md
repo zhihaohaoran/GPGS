@@ -7,7 +7,7 @@
 ## 😊️ Pipeline
 
 ![teaser](assets/gpgs.drawio.png)
-![teaser](assets/gpgs_overview.png)
+![teaser](assets/gpgs-Page-6.drawio.png)
 
 # GP-GS: Gaussian Processes for Enhanced Gaussian Splatting
 
