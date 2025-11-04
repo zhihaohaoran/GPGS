@@ -1,4 +1,5 @@
 # GP-GS: Gaussian Processes for Enhanced 3D Gaussian Splatting
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 # [Paper](https://arxiv.org/pdf/2502.02283)
 
